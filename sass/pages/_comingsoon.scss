@@ -1,0 +1,38 @@
+.comingsoon {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-accent, 0.7),
+        rgba(darken($color-accent, 15%), 0.9)),
+        url('/img/sandbox.jpg');
+        background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.logo-dark:link,
+a.logo-dark:visited {
+    color: $color-primary;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.soon-title {
+    color: $color-primary;
+    padding: 2rem;
+    text-align: center;
+
+    &-main {
+        font-size: 5rem;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+
+    &-sub {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,39 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    //define 1rem
+    font-size: 62.5%; //default 1rem = 10px
+    scroll-behavior: smooth;
+
+    @include respond(big-desktop) {
+        font-size: 75%; // 1rem = 12px
+    }
+
+    @include respond(tab-port) {
+        font-size: 55%; // 1 rem  = 8px 8/16 = 50%
+    }
+}
+
+body {
+    color: $color-white;
+    font-family: $font-primary;
+    line-height: 1.4;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+

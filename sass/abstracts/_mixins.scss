@@ -1,0 +1,62 @@
+
+@mixin positionCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* media query setup
+
+// 0 - 600px: phones
+// 600 - 900px: tablet portrait
+// 900 - 1200px: tablet landscape
+// 1200 - 1300px: desktop style, fix grid problem
+// 1200 - 1800px : normal styles / desktop
+// 1800 and up: large desktop / smart TVs
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- grid1300
+- big-desktop
+
+1em: 16px
+
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 37.5em) { //600px
+            @content
+        };
+    }
+
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.25em) { //900px
+            @content
+        };
+    }
+
+
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) {  // 1200px
+            @content
+        };
+    }
+
+    @if $breakpoint == grid1300 {
+        @media (max-width: 81.25em) { // 1300px
+            @content
+        };
+    }
+
+    @if $breakpoint == big-desktop {
+        @media (max-width: 112.5em) {  // 1800px
+            @content
+        };
+    }
+
+
+}

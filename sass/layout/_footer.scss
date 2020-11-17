@@ -1,0 +1,55 @@
+
+.footer {
+    min-height: 30vh;
+    display: grid;
+    text-align: center;
+    color: $color-white;
+
+    &-email {
+    
+        a,
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+            font-size: 2rem;
+            margin: 2rem; 
+            padding-bottom: 3px;
+            letter-spacing: 1.5px;
+            font-weight: 300;
+            
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: $color-accent;
+        }
+    }
+
+    &-social {
+        font-size: 3rem;
+
+        a:link,
+        a:visited {
+            color:$color-white;
+            text-decoration: none;
+        }
+
+        i {
+          padding: 2rem;
+          transition: all 0.5s;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1) translateY(-2px);
+                color: $color-accent;
+            }
+
+            &:active {
+                transform: translateY(-1px);
+            }
+        }
+        
+    }
+        
+}
