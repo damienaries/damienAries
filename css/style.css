@@ -71,6 +71,10 @@ img {
   padding: 2rem;
   font-weight: 300; }
 
+.section-subtitle {
+  font-size: 1.8rem;
+  padding-bottom: 1rem; }
+
 .navbar {
   background: transparent;
   height: 6rem;
@@ -283,7 +287,7 @@ img {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card-img-1 {
-      background-image: url("/img/yelpCamp.png"); }
+      background-image: url("/img/hikeLog.png"); }
     .card-img-2 {
       background-image: url("/img/Jamming.png"); }
     .card-img-3 {
