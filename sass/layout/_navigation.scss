@@ -2,8 +2,11 @@
 .navbar {
     background: transparent;
     height: 6rem;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: $default-font-size;
+    z-index: 10;
     
 
     &-toggle {

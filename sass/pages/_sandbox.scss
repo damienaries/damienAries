@@ -1,0 +1,122 @@
+.sandbox {
+    background-image: linear-gradient(
+        to right bottom,
+        $color-primary-light,
+        $color-primary-dark),
+        url('/img/sandbox.jpg');
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.title-container {
+    max-width: 90%;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    text-align: center;
+
+    &-main {
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+    &-sub {
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: 0 auto;
+        width: 70%;
+
+        @include respond(phone) {
+            display: none;
+        }
+    }
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 6rem;
+    margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    text-align: right;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba($color-white, 0.3);
+    
+    
+    &:nth-of-type(2n) {
+        flex-direction: row-reverse;
+        text-align: left;
+
+        @include respond(phone) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    @include respond(phone) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &-img {
+        width: 80%;
+        margin: 2rem auto;
+        box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.3);
+
+        @include respond(phone) {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    &-body {
+        width: 100%;
+        padding: 2rem;
+        h3 {
+            font-size: 4rem;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+
+        @include respond(phone) {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 2rem;
+        }
+    }
+
+    &-code {
+        font-size: 1.6rem;
+        padding: 0.5rem 3rem;
+        display: inline-block;
+        margin-top: 1rem;
+        background-color: $color-accent;
+        color: $color-primary;
+        border-radius: 3px;
+        border: none;
+        box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.3);
+
+        &:hover {
+            background-color: darken($color-accent, 10%);
+            transform: translateY(1px);
+        }
+
+        &-active {
+            transform: translateY(-1px);
+        }
+    }
+}

@@ -8,7 +8,6 @@ function toggleNav() {
 }
 
 // replace hover effect for click for touch devices
-// option 1
 document.addEventListener("touchstart", function() {}, true);
 
 
