@@ -289,6 +289,8 @@ img {
     height: 85%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+    .card-img-concept {
+      background-image: url("/img/concept_screenshot.png"); }
     .card-img-1 {
       background-image: url("/img/hikeLog.png"); }
     .card-img-2 {
@@ -312,6 +314,11 @@ img {
       list-style-type: none;
       width: 80%;
       margin: 2rem auto; }
+      .card-side-back ul.card-tech-description {
+        width: 90%;
+        padding: .5rem 0;
+        font-size: 1.2rem;
+        margin: .5rem auto; }
       .card-side-back ul li {
         text-align: center;
         font-size: 1.6rem;
