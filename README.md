@@ -3,9 +3,8 @@
 as of Nov 17, 2020. 
 Los Angeles, CA
 
-Includes small bio and contacts, as well as my full resume.
+Includes work examples, small bio and contacts, as well as my full resume.
 
-Being a newly trained developer I am still looking for my first dev job, so on this first version the projects shown are not professional, but instead I wanted to list the most interesting things I build in the different courses I completed, to showcase the technologies I am focusing on learning.
-
-
-DA
+Web Developer based in LA.
+I love building beautiful interfaces with JavaScript and React.
+Always looking for opportunities to put these skills to work and tackle exciting challenges.
