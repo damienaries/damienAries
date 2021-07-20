@@ -259,7 +259,7 @@ img {
   .card-side {
     height: 25rem;
     width: 25rem;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -291,6 +291,8 @@ img {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card-img-concept {
       background-image: url("/img/concept_screenshot.png"); }
+    .card-img-blogr {
+      background-image: url("/img/blogr.png"); }
     .card-img-1 {
       background-image: url("/img/hikeLog.png"); }
     .card-img-2 {
@@ -316,13 +318,13 @@ img {
       margin: 2rem auto; }
       .card-side-back ul.card-tech-description {
         width: 90%;
-        padding: .5rem 0;
+        padding: 0.5rem 0;
         font-size: 1.2rem;
-        margin: .5rem auto; }
+        margin: 0.5rem auto; }
       .card-side-back ul li {
         text-align: center;
         font-size: 1.6rem;
-        padding: .5rem; }
+        padding: 0.5rem; }
         .card-side-back ul li:not(:last-child) {
           border-bottom: 1px solid rgba(0, 89, 191, 0.2); }
   .card-code-link, .card-code-link:link, .card-code-link:visited {
@@ -347,7 +349,7 @@ img {
     justify-content: space-around; }
   .card-credit {
     position: absolute;
-    bottom: .5rem;
+    bottom: 0.5rem;
     left: 50%;
     font-style: italic;
     font-size: 0.9rem;
