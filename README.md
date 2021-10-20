@@ -1,10 +1,8 @@
-# Personal website and portfolio
+# Web Developer based in LA.
 
-as of Nov 17, 2020. 
-Los Angeles, CA
+Originally from France, I now live with my family in Los Angeles, CA.
+After a 15 year international career working in and running cocktail bars I decided to dive into my passion for all things tech and learned to code in 2020. My main focus is the Front End and I love to build beautiful, smooth interfaces and experiences in JavaScript, React and CSS.
 
-Includes work examples, small bio and contacts, as well as my full resume.
-
-Web Developer based in LA.
-I love building beautiful interfaces with JavaScript and React.
 Always looking for opportunities to put these skills to work and tackle exciting challenges.
+
+This repo also holds the code for the first version of my personal portfolio
